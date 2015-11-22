@@ -1,0 +1,135 @@
+SCHEDULER----------------------------------------------------------------
+App,V,N
+ps,3,10000
+ls,5,100000
+P,Phit,Pmiss,T,Taccess
+8,200,800000,4,20
+C
+10
+Page Fault Rate 0.432545454545
+Effective Memory Access Time 346260.385455
+Number of TLB Misses 2212
+-------------------------------------------------------------------------
+App,V,N
+ps,3,10000
+ls,5,100000
+P,Phit,Pmiss,T,Taccess
+8,200,800000,4,20
+C
+1000
+Page Fault Rate 0.00481818181818
+Effective Memory Access Time 4111.13454545
+Number of TLB Misses 20654
+-------------------------------------------------------------------------
+App,V,N
+ps,3,10000
+ls,5,100000
+P,Phit,Pmiss,T,Taccess
+8,200,800000,4,20
+C
+10000
+Page Fault Rate 0.000481818181818
+Effective Memory Access Time 641.587272727
+Number of TLB Misses 19926
+-------------------------------------------------------------------------
+App,V,N
+ps,3,10000
+ls,5,100000
+P,Phit,Pmiss,T,Taccess
+8,200,800000,4,20
+C
+100000
+Page Fault Rate 7.27272727273e-05
+Effective Memory Access Time 314.536363636
+Number of TLB Misses 20003
+PROCESS------------------------------------------------------------------
+App,V,N
+ps,3,10000
+ls,5,100000
+as,10,1000
+bs,10,1000
+P,Phit,Pmiss,T,Taccess
+8,200,800000,4,20
+C
+100000
+Page Fault Rate 0.0036875
+Effective Memory Access Time 3207.33571429
+Number of TLB Misses 21321
+-------------------------------------------------------------------------
+App,V,N
+ps,3,10000
+ls,50,100000
+P,Phit,Pmiss,T,Taccess
+8,200,800000,4,20
+C
+100000
+Page Fault Rate 0.761863636364
+Effective Memory Access Time 609725.572727
+Number of TLB Misses 91870
+MEMORY-------------------------------------------------------------------
+App,V,N
+ps,3,10000
+ls,5,100000
+as,10,1000
+bs,10,1000
+P,Phit,Pmiss,T,Taccess
+16,200,800000,8,20
+C
+100000
+Page Fault Rate 0.00025
+Effective Memory Access Time 420.708928571
+Number of TLB Misses 425
+-------------------------------------------------------------------------
+App,V,N
+ps,3,10000
+ls,5,100000
+as,10,1000
+bs,10,1000
+P,Phit,Pmiss,T,Taccess
+16,200,800000,4,20
+C
+100000
+Page Fault Rate 0.00025
+Effective Memory Access Time 457.607142857
+Number of TLB Misses 21088
+-------------------------------------------------------------------------
+App,V,N
+ps,3,10000
+ls,5,100000
+as,60,1000
+bs,50,1000
+P,Phit,Pmiss,T,Taccess
+16,200,800000,4,20
+C
+100000
+Page Fault Rate 0.0126517857143
+Effective Memory Access Time 10378.0160714
+Number of TLB Misses 21906
+-------------------------------------------------------------------------
+App,V,N
+ps,3,10000
+ls,5,100000
+as,60,1000
+bs,50,1000
+P,Phit,Pmiss,T,Taccess
+30,200,800000,4,20
+C
+100000
+Page Fault Rate 0.00829464285714
+Effective Memory Access Time 6892.94464286
+Number of TLB Misses 21778
+-------------------------------------------------------------------------
+App,V,N
+ps,3,10000
+ls,5,100000
+as,60,1000
+bs,50,1000
+P,Phit,Pmiss,T,Taccess
+45,200,800000,4,20
+C
+100000
+Page Fault Rate 0.00377678571429
+Effective Memory Access Time 3279.84285714
+Number of TLB Misses 21935
+-------------------------------------------------------------------------
+
